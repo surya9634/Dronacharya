@@ -89,7 +89,7 @@ class EdgeTTS:
 # Function to play music at startup in the background (different from TTS)
 def play_startup_music():
     print("")
-    pygame.mixer.music.load(input(f"{Fore.YELLOW}Please provide the path to the background music (or download from here 'https://drive.google.com/file/d/1pJRPFCP26ubMvBEzqtOsRCOCBJ1Z6hDW/view?usp=sharing'): "))  # Load the music file
+    pygame.mixer.music.load(input(f"{Fore.YELLOW}Please provide the path to the background music (or download from here 'https://drive.google.com/file/d/1ZOwcglbRUHPnF-9SpwP7hnQJSHxv5ji8/view?usp=sharing'): "))  # Load the music file
     pygame.mixer.music.play(-1)  # Play the music in a loop (-1 for infinite loop)
 
 # Initialize client with API key
